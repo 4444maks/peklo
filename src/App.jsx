@@ -1,13 +1,10 @@
 import './App.css'
 
-function App() {
- 
+// App.jsx
+import TrackCard from './component/TrackCard/TrackCard'
 
-  return (
-    <>
-     
-    </>
-  )
+function App() {
+  return <TrackCard />
 }
 
 export default App
