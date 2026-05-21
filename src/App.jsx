@@ -1,10 +1,26 @@
-// Точний імпорт за твоєю структурою папок
+import './App.css'
 import Navbar from './component/Navbar/Navbar';
+import TrackCard from './component/TrackCard/TrackCard';
+import PlayerProvider, { PlayerContext } from './context/PlayerContext';
+import { useContext } from 'react';
 
-function App() {
+function AppContent() {
+  const data = useContext(PlayerContext);
+
   return (
-        <Navbar />
+    <div className="box">
+      <TrackCard />
+      <Navbar />
+    </div>
   );
 }
 
-export default App;
+function App() {
+  return (
+    <PlayerProvider>
+      <AppContent />
+    </PlayerProvider>
+  );
+}
+
+export default App
