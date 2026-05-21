@@ -1,0 +1,58 @@
+/* Контейнер навігації */
+.navbar-container {
+  background-color: #0b112c; /* Темно-синій колір фону, як на фото */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-evenly; /* Вирівнювання ліворуч, за потреби змініть на center */
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* Список елементів */
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 40px; /* Відступ між кнопками меню */
+}
+
+/* Базовий стиль для кожної кнопки */
+.navbar-item {
+  background: transparent;
+  border: none;
+  border-radius: 20px; /* Заокруглені краї */
+  padding: 12px 28px;
+  display: flex;
+  flex-direction: column; /* Іконка над текстом */
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #727a92; /* Сіруватий колір для неактивних елементів */
+}
+
+/* Текст під іконкою */
+.navbar-label {
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+/* Іконка */
+.navbar-icon {
+  font-size: 20px;
+}
+
+/* Стиль для АКТИВНОГО елемента (як "Головна" на фото) */
+.navbar-item.active {
+  background-color: #171d5b; /* Яскравіший синій фон для виділення */
+  color: #3b82f6; /* Синій або блакитний колір тексту/іконки */
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Ефект наведення мишки для неактивних елементів */
+.navbar-item:not(.active):hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.05);
+}
