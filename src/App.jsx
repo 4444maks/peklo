@@ -33,6 +33,7 @@ function AppContent() {
         </Routes>
         {/* Вот этот черт тут и должен быть. Не трогайте */}
         {/* <PlayerBar /> */}
+        
       </BrowserRouter>
     </div>
   );
