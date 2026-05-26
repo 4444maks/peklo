@@ -1,0 +1,13 @@
+/* Стили супер-базовые, так что делайте с ними че хотите */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
