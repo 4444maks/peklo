@@ -20,7 +20,16 @@ export default function HomeJS(){
         свойство из объекта (песни), которое мы передаем в карточку*/}
         {
             tracks.map((el)=>{
-                return <TrackCard title={el.title} album={el.album} cover={el.cover}/>
+                return (
+   <TrackCard
+    key={el.id}
+    id={el.id}
+    title={el.title}
+    album={el.album}
+    cover={el.cover}
+    src={el.src}
+/>
+)
             })
         }
         {/* Тут верстка продолжается, если надо */}

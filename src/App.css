@@ -8,6 +8,12 @@
     width: 90%;
     height: auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
+}
+.left_block{
+    width: 37%;
+    height: 700px;
+    background: red;
+
 }
