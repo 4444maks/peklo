@@ -10,3 +10,30 @@
     box-sizing: border-box;
     box-shadow: 0 0 25px rgba(0,0,0,0.5);
 }
+.search_page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.search_input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #222;
+    color: white;
+}
+
+.search_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.no_result {
+    opacity: 0.6;
+}

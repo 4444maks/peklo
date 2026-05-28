@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { PlayerContext } from "../../context/PlayerContext";
 //В функцию ложим props что б пользоваться им
 export default function TrackCard(props) {
-    const { selectTrack } = useContext(PlayerContext);
+   
     return (
         
         <section className="trackcard">
