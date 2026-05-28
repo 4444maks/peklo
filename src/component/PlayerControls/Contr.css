@@ -1,0 +1,32 @@
+.player_controls{
+    margin-top: 35px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.player_controls button{
+    width: 65px;
+    height: 65px;
+
+    border-radius: 50%;
+
+    border: none;
+
+    background: rgba(255,255,255,0.08);
+
+    color: white;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+.player_controls button:hover{
+    background: rgba(255,255,255,0.18);
+
+    transform: scale(1.08);
+}

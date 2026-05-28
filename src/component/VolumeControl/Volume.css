@@ -1,0 +1,14 @@
+.volume_control{
+    width: 80%;
+
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.volume_control input{
+    width: 100%;
+
+    cursor: pointer;
+}

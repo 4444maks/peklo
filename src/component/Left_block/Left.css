@@ -1,0 +1,73 @@
+.left{
+    width: 37%;
+    height: 700px;
+
+    background: linear-gradient(
+        180deg,
+        #111827,
+        #0f172a
+    );
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 25px;
+
+    box-sizing: border-box;
+
+    border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Верхняя полоска */
+.v{
+    width: 90%;
+    height: 10px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(
+        90deg,
+        #6d28d9,
+        #9333ea
+    );
+
+    opacity: 0.8;
+
+    margin-top: 10px;
+}
+
+/* Картинка */
+.img_muzik{
+    width: 220px;
+    height: 220px;
+    border-radius: 18px;
+    object-fit: cover;
+    margin-top: 45px;
+}
+
+.img_muzik:hover{
+    transform: scale(1.02);
+}
+
+/* Название */
+.p_muzik{
+    color: white;
+
+    text-align: center;
+
+    margin-top: 30px;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    line-height: 1.6;
+}
+
+/* Альбом */
+.p_muzik span{
+    font-size: 17px;
+    font-weight: 400;
+
+    opacity: 0.7;
+}
